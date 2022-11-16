@@ -1,0 +1,17 @@
+.container {
+  margin: 5px;
+  width: 200px;
+  height: 400px;
+  background-color: grey;
+}
+
+.box {
+  margin: 30px;
+  width: 200px;
+  height: 400px;
+  padding: 100px;
+  line-height: 100px;
+  background-color: purple;
+}
+
+/*# sourceMappingURL=style.css.map */

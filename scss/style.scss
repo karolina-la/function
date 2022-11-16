@@ -1,0 +1,20 @@
+@use "sass:math";
+@import "functions";
+
+
+.container {
+    margin: 5px;
+    width: dz(1000, 5);
+    height: m(100, 4);
+    background-color: grey;
+}
+
+.box {
+    margin: 30px;
+    width: m(100, 2);
+    height: d(200, 200);
+    padding: o(500, 400);
+    line-height: d(50, 50);
+    background-color: purple;
+
+}

@@ -1,0 +1,24 @@
+@function dz($num1, $num2) {
+    $dz: math.div($num1, $num2) * 1px;
+    
+    @return($dz);
+}
+
+@function m($num1, $num2) {
+    $m: $num1 * $num2 * 1px;
+    
+    @return($m);
+}
+
+@function o($num1, $num2) {
+    $o: $num1 - $num2 * 1px;
+
+    @return($o);
+}
+
+@function d($num1, $num2) {
+    $d: $num1 + $num2 * 1px;
+        
+    @return($d);
+    
+}
